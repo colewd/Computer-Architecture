@@ -1,0 +1,19 @@
+Name: Cole DiStasio
+Email: cole_distasio@student.uml.edu
+
+
+I think I was 100% successful with this project.
+
+My approach to the assignment was to start with the code provided for us,
+"IO_scan_two_numbers". I first broke some of the sections into functions 
+and added call/retn statements. I made sure the program still worked before continuing. 
+Then I wrote the addInput section which simply prompted the user for input and read
+input twice. I added the result and stored it on the stack where the
+user specified. (This is the address that's pushed on the stack before
+calling the addInput function). Then, I had to encode the values for 
+each number in the result. I did this by utilizing the remainder and
+quotient from the divide function in assignment 4. After, I simply
+popped each ascii number from the stack and printed it. If I encountered
+an ascii value less than 48, I was done.
+
+

@@ -1,0 +1,17 @@
+********************************************************
+                        HOW-TO
+********************************************************
+
+To Build Code:
+
+./masm < assignment5.asm > assignment5.o
+
+This will convert the macro code to binary instructions.
+
+
+To Run Code:
+
+./mic1 prom_mrd.dat assignment5.o 0 1000
+
+<0>     : what program counter to start at
+<1000>  : what address should the stack start at
