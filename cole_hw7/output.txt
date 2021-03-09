@@ -1,0 +1,37 @@
+cdistasi@cs2:~/COMP_ARCH/cole_distasio_hw7$ make
+gcc -o main a7.c
+cdistasi@cs2:~/COMP_ARCH/cole_distasio_hw7$ ls
+a7.c  main  Makefile  output.txt  writeup.txt
+cdistasi@cs2:~/COMP_ARCH/cole_distasio_hw7$ ./main
+
+This is the Parent process report:
+
+PARENT PROG:  Process ID is:            24218
+PARENT PROC:  Process parent ID is:     23483
+PARENT PROC:  Real UID is:              45288
+PARENT PROC:  Real GID is:              2019
+PARENT PROC:  Effective UID is:         45288
+PARENT PROC:  Effective GID is:         2019
+PARENT PROC:  Process priority is:      0
+
+PARENT PROC: will now create child, write pipe,
+ and do a normal termination
+PARENT PROG: created Child with 24219 PID
+
+This is the Child process report:
+
+CHILD PROC:  Process ID is:             24219
+CHILD PROC:  Process parent ID is:      24218
+CHILD PROC:  Real UID is:               45288
+CHILD PROC:  Real GID is:               2019
+CHILD PROC:  Effective UID is:          45288
+CHILD PROC:  Effective GID is:          2019
+CHILD PROC:  Process priority is:       0
+
+CHILD PROG: about to read pipe and report parent message:
+
+CHILD PROC: parent's msg is
+        This is the pipe message from the parent with PID 24218
+
+CHILD PROC: Process parent ID now is:   1
+CHILD PROC: ### Goodbye ###

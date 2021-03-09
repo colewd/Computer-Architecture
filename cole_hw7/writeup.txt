@@ -1,0 +1,14 @@
+Name: Cole DiStasio
+Email: cole_distasio@student.uml.edu
+
+I believe I was 100% successful with this assignment.
+
+Using the example code, I implemented the switch statement
+to print out the necessary information. My output matches the expected
+output listed in the example code. I used the fork method to create 
+a child process. On the parent's return, it prints out that it created
+a child process with it's ppid, then it stores a string in the msg_buf.
+When the child's case is returned from fork() it will print out the parents
+message and also it's own process and thread information.
+
+There were no errors I was not able to fix for this assignment.
