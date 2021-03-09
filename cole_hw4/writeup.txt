@@ -1,0 +1,17 @@
+Name: Cole DiStasio
+Email: cole_distasio@student.uml.edu
+
+I think I was 100% successful with this project.
+
+My approach to this problem was to first understand the rshift 
+solution. I then wrote some pencil and paper
+solutions to the multipication and divison so I would know
+what variables are needed to solve the operations. Multiplcation
+was fairly easy because you just add n amount of times then 
+check if the result was of the opposite sign bit, which would
+indicate overflow. Divison was much longer to implement. I knew
+that all divisions can be viewed as multiplications and additions.
+So I wrote up a solution on paper then converted it to microcode.
+
+There were no problems I encountered that I was not able
+to resolve with this project. 

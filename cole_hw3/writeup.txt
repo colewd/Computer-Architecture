@@ -1,0 +1,13 @@
+Cole DiStasio
+cole_distasio@student.uml.edu
+
+I think I was 100% successful with this assignment.
+
+My approach to this problem was to first understand the iterative example. 
+I then wrote a c program to better understand how I'd do the recursion. I knew that
+I'd have to call fib(n-1), store the result, and call fib(n-2).
+And then I'd just have to put the addition result in the accumulator
+and move the stack pointer to the return address.
+
+There were no problems I encountered that I was not able
+to resolve with this project. I ran the examples provided and my answer matched. 

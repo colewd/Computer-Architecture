@@ -1,0 +1,16 @@
+Cole DiStasio
+cole_distasio@student.uml.edu
+
+I think I was 100% successful with this project.
+
+My approach to this problem was to write it using bitsets first 
+so it was easier to understand and wrap my head around. Then, 
+once I got it working, I went through each section of the code 
+replacing bitsets with integers to follow the assignment specifications.
+
+There weren't problems I encountered that I was not able
+to resolve with this project. I ran all the examples provided 
+and my output matched the expected output. I included a check to
+see if the exponent of the result was equal to 255 so I can
+make sure the result is infinity if the user added two large inputs
+that caused an overflow.

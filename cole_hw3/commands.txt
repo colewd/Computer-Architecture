@@ -1,0 +1,10 @@
+Build:
+./masm < rfibonacci.asm > rfib.obj
+
+
+This reads in rfibonacci.asm and converts it, then stores the output to a new file.
+
+Run:
+./mic1 prom.dat rfib.obj 0 2048
+
+This runs the mic1 simulator given the prom.dat instructions, starts the program counter at instruction 0, and starts the stack at 2048.
